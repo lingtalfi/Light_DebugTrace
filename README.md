@@ -1,6 +1,6 @@
 Light_DebugTrace
 ===========
-2020-06-25 -> 2021-03-05
+2020-06-25 -> 2021-03-15
 
 
 
@@ -75,28 +75,28 @@ $events.methods_collection:
     -
         method: registerListener
         args:
-            event: Light.on_route_found
+            event: Ling.Light.on_route_found
             listener:
                 instance: @service(debugtrace)
                 callable_method: onRouteFound
     -
         method: registerListener
         args:
-            event: Light.initialize_1
+            event: Ling.Light.initialize_1
             listener:
                 instance: @service(debugtrace)
                 callable_method: initialize
     -
         method: registerListener
         args:
-            event: Light.end_routine
+            event: Ling.Light.end_routine
             listener:
                 instance: @service(debugtrace)
                 callable_method: onEndRoutine
     -
         method: registerListener
         args:
-            event: Light_CsrfSimple.on_csrf_token_regenerated
+            event: Ling.Light_CsrfSimple.on_csrf_token_regenerated
             listener:
                 instance: @service(debugtrace)
                 callable_method: onCsrfTokenRegenerated
@@ -108,6 +108,10 @@ $events.methods_collection:
 
 History Log
 =============
+
+- 1.0.4 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 1.0.3 -- 2021-03-05
 

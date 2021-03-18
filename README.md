@@ -1,6 +1,6 @@
 Light_DebugTrace
 ===========
-2020-06-25 -> 2021-03-15
+2020-06-25 -> 2021-03-18
 
 
 
@@ -93,13 +93,6 @@ $events.methods_collection:
             listener:
                 instance: @service(debugtrace)
                 callable_method: onEndRoutine
-    -
-        method: registerListener
-        args:
-            event: Ling.Light_CsrfSimple.on_csrf_token_regenerated
-            listener:
-                instance: @service(debugtrace)
-                callable_method: onCsrfTokenRegenerated
 
 
 ```
@@ -109,6 +102,10 @@ $events.methods_collection:
 History Log
 =============
 
+- 1.0.5 -- 2021-03-18
+
+    - switch some listeners to Ling.Light_Events' open registration system
+  
 - 1.0.4 -- 2021-03-15
 
     - update planet to adapt Ling.Light:0.70.0

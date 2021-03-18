@@ -1,0 +1,1 @@
+- @debugtrace->onCsrfTokenRegenerated(data, event)

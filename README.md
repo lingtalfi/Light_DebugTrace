@@ -1,6 +1,6 @@
 Light_DebugTrace
 ===========
-2020-06-25 -> 2021-03-18
+2020-06-25 -> 2021-03-19
 
 
 
@@ -102,6 +102,10 @@ $events.methods_collection:
 History Log
 =============
 
+- 1.0.6 -- 2021-03-19
+
+    - fix open events not in the "events" directory
+  
 - 1.0.5 -- 2021-03-18
 
     - switch some listeners to Ling.Light_Events' open registration system

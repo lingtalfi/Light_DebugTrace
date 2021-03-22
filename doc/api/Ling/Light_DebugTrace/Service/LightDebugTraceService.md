@@ -4,7 +4,7 @@
 
 The LightDebugTraceService class
 ================
-2020-06-25 --> 2021-03-19
+2020-06-25 --> 2021-03-22
 
 
 
@@ -123,3 +123,6 @@ See the source code of [Ling\Light_DebugTrace\Service\LightDebugTraceService](ht
 
 
 
+SeeAlso
+==============
+Previous class: [LightDebugTracePlanetInstaller](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Light_PlanetInstaller/LightDebugTracePlanetInstaller.md)<br>

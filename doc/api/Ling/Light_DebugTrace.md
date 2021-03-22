@@ -1,6 +1,6 @@
 Ling/Light_DebugTrace
 ================
-2020-06-25 --> 2021-03-19
+2020-06-25 --> 2021-03-22
 
 
 
@@ -8,6 +8,10 @@ Ling/Light_DebugTrace
 Table of contents
 ===========
 
+- [LightDebugTracePlanetInstaller](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Light_PlanetInstaller/LightDebugTracePlanetInstaller.md) &ndash; The LightDebugTracePlanetInstaller class.
+    - [LightDebugTracePlanetInstaller::onMapCopyAfter](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Light_PlanetInstaller/LightDebugTracePlanetInstaller/onMapCopyAfter.md) &ndash; This hook is executed during an [install](https://github.com/lingtalfi/TheBar/blob/master/discussions/import-install.md#summary).
+    - LightBasePlanetInstaller::__construct &ndash; Builds the LightBasePlanetInstaller instance.
+    - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
 - [LightDebugTraceService](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Service/LightDebugTraceService.md) &ndash; The LightDebugTraceService class.
     - [LightDebugTraceService::__construct](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Service/LightDebugTraceService/__construct.md) &ndash; Builds the LightKitAdminDebugTraceService instance.
     - [LightDebugTraceService::initialize](https://github.com/lingtalfi/Light_DebugTrace/blob/master/doc/api/Ling/Light_DebugTrace/Service/LightDebugTraceService/initialize.md) &ndash; Listener for the [Ling.Light.initialize_1 event](https://github.com/lingtalfi/Light/blob/master/personal/mydoc/pages/events.md).
@@ -24,9 +28,11 @@ Dependencies
 ============
 - [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Bat](https://github.com/lingtalfi/Bat)
+- [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_CsrfSession](https://github.com/lingtalfi/Light_CsrfSession)
 - [Light_CsrfSimple](https://github.com/lingtalfi/Light_CsrfSimple)
 - [Light_Events](https://github.com/lingtalfi/Light_Events)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 
 

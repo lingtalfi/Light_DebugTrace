@@ -1,3 +1,0 @@
-Ling.Light_CsrfSimple.on_csrf_token_regenerated:
-    - @debugtrace->onCsrfTokenRegenerated(data, event)
-
